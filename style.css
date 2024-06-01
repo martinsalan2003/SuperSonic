@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imagens/sav.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav {
+background-color: rgb(23, 177, 182);
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#icone {
+    height:    30px;    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li {
+    font-family:"Anton", sans-serif;
+    display: inline;
+    padding: 40px;
+    font-size: large;
+    transition: 1s;
+    height: 20px;
+}
+ul li:hover {
+    font-style: initial;
+    border-radius: 50px;
+    background-color: white;
+}
+.container {
+    border-radius: 32px;
+    margin-left:60px;
+    margin-top: 32px;
+    height: 350px;
+    width: 300px;
+   background-color: rgb(23, 177, 182);
+}
+#logo {
+    margin-left: 70px;
+    margin-top: 20px;
+    height: 32px;
+}
+#escritorio1 {
+    margin-top: 15px;
+    margin-left: 65px;
+    height: 200px;
+}
+p {
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white
+}
+.imagem_traseira {
+    background-color: aliceblue;
+    border-radius: 32px;
+    margin-left:40px;
+    margin-top: 32px;
+    height: 350px;
+    width: 300px;
+}
+#icone_escritorio {
+    position: relative;
+    top:70px;
+    left: 100px;
+    height: 100px;
+    
+}
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+}
+
+#imagenPlano{
+    margin-top: 10px;
+    margin-left: 90px;
+    height: 50%;
+
+}
+.flip-container {
+    display: flex;
+    width: 450px;
+    height:400px;
+    perspective: 1000px;
+  }
+.flipper {
+    width: 100%;
+	height: 100%;
+    transition: transform 0.8s;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+.back {
+    display: flex;
+    transform: rotateY(180deg)
+}
+.front, .back{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}
+ 
+botao {
+    background-color: black;
+}
+
+header {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+
+}
+
+
+#escritorio {
+    margin-left: 50px;
+    height: 150px;
+}
+#loja {
+    margin-left: 30px;
+    width: 80%;
+    height: 150px;
+}
+
+
