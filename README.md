@@ -1,6 +1,6 @@
-# NLW eSports
+# SUPERSONIC
 
-![preview](./.github/preview.png)
+![preview](./imagens/preview.png)
 
 
  >Explorando CSS
